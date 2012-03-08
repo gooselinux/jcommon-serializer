@@ -1,0 +1,20 @@
+--- jcommon-serializer-0.3.0.orig/build.properties.depends.patch	2008-05-30 18:31:56.000000000 +0100
++++ jcommon-serializer-0.3.0/build.properties	2008-12-03 16:12:36.000000000 +0000
+@@ -33,12 +33,16 @@
+ build.target-dir=
+ build.manifest-lib-prefix=lib/
+ 
++Release-Major-Number=0
++Release-Minor-Number=3
++Release-Milestone-Number=0
++
+ ###########################################################
+ #
+ #  Used libraries ...
+ 
+ # Used by: core libraries
+-dependency.release.core.libbase=libbase-1.0.0.jar
++dependency.release.core.libbase=libbase.jar
+ dependency.release.core.commons-logging=commons-logging-api.jar
+ 
+ ##############################################################
